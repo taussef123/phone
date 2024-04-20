@@ -1,0 +1,304 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Allura&family=Caveat:wght@400;500&family=Fira+Sans+Condensed:ital,wght@0,300;1,300&family=Josefin+Slab:wght@100;400&family=Poppins:ital,wght@0,400;0,600;1,300;1,400&family=Satisfy&family=Ysabeau+Infant:ital,wght@0,300;1,300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Allura&family=Assistant&family=Caveat:wght@400;500&family=Fira+Sans+Condensed:ital,wght@0,300;1,300&family=Josefin+Slab:wght@100;400&family=Poppins:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Satisfy&family=Ysabeau+Infant:ital,wght@0,300;1,300&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Allura&family=Assistant&family=Caveat:wght@400;500&family=Crimson+Text:wght@600&family=Fira+Sans+Condensed:ital,wght@0,300;1,300&family=Josefin+Slab:wght@100;400&family=Poppins:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Satisfy&family=Ysabeau+Infant:ital,wght@0,300;1,300&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Allura&family=Assistant&family=Bitter:ital@1&family=Caveat:wght@400;500&family=Crimson+Text:wght@600&family=Fira+Sans+Condensed:ital,wght@0,300;1,300&family=Josefin+Slab:wght@100;400&family=Poppins:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Satisfy&family=Ysabeau+Infant:ital,wght@0,300;1,300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Allura&family=Assistant&family=Bitter:ital@1&family=Caveat:wght@400;500&family=Crimson+Text:wght@600&family=Fira+Sans+Condensed:ital,wght@0,300;1,300&family=Josefin+Slab:wght@100;400&family=Poppins:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Satisfy&family=Ysabeau+Infant:ital,wght@0,300;1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color:rgb(227, 222, 222);
+    
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 30px;
+    height: 100vh;
+    
+}
+.sidebar nav{
+    padding: 62px;
+    margin: 0 -40px;
+
+
+}
+.sidebar nav li{
+   list-style:none;
+   font-size:20px;
+   padding: 30px 0;
+} 
+.sidebar nav li a{
+     text-decoration: none;
+     color:rebeccapurple
+    
+ } 
+ .sidebar nav li a:hover{
+   color: rgb(53, 53, 180);
+   font-size:1.2rem;
+  
+   
+} 
+
+.image-top{
+    height: 80vh;
+    
+}
+    
+
+.main{
+    /* background-color:rgb(117, 84, 44); */
+    width:90vw;
+} 
+.container{
+    display: flex;
+   
+}
+.infoContainer{
+    /* background-color:blue; */
+    height: 58vh;
+    width: 80vw;
+    margin: 151px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Josefin Slab', serif;
+}
+
+.hello{
+    font-size:65px;
+    padding: 23px ;
+
+}
+.about{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    margin-bottom: 43px;
+    padding: 0px 10px;
+
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 1px 20px;
+
+}
+#element{
+    font-size:45px ;
+    font-family:'Crimson Text', serif;
+    margin: 10px;
+    
+}
+ .buttons button{
+    color: white;
+    background-color: dodgerblue;
+    padding: 10px;
+    border-radius: 22px;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 10px;
+    cursor: pointer;
+   
+}
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+
+}
+
+.contactform{
+    font-family: 'Poppins', sans-serif;
+    /* padding-top: 144px; */
+    padding: 144px 34px;
+
+}
+.contactform h1{
+    font-family:'Crimson Text', serif;
+    text-align: center;
+
+}
+/* .form-group{
+    padding: 0 34px;
+
+} */
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 300px;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 2px 0;
+}
+
+#emailHelp{
+    font-size: 9px;
+    color: dodgerblue;
+    margin: 0 5px;
+}
+#form-check{
+    position: relative;
+    top: -20px;
+    left: -142px;
+}
+.form-check-label{
+    position: relative;
+    left:165px;
+    top: -25px;
+ }
+
+ button.button{
+    width: 70px;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+    background-color: dodgerblue;
+    position: relative;
+    top: -50px;
+}
+button.button:hover{
+    color:dodgerblue;
+    background-color: white;
+    cursor:pointer;
+  
+}
+
+
+
+.blogItem{
+    padding: 16px 0;
+    margin-top: 23px;
+}
+ h2{
+    font-family: 'Ysabeau Infant', sans-serif;
+    color:red;
+    margin:-40px 18px;
+
+}
+     h1{
+        color:blue;
+        margin:10px 20px;
+}
+ p{
+    font-family: 'Satisfy', cursive;
+    color:crimson;
+    margin: 40px 17px;
+
+}
+   .blogItem button.btn-sm{
+    margin: 0px 14px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 20px;
+} 
+.intro h2{
+    font-family: 'Ysabeau Infant', sans-serif;
+    margin: 12px;
+
+
+}
+.intro p{
+font-family: 'Satisfy', cursive;
+margin: -11px 9px;
+}
+.skill{
+    width: 265px;
+    height:4px;
+    background-color: red;
+}
+.skillcontainer{
+    padding:0 12px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900px;
+}
+.hundred{
+    width: 215px;
+    border:2px solid black;
+    border-radius: 23px;
+    background-color:blue;
+}
+.fifty{
+    width:180px;
+    border:2px solid black;
+    border-radius: 23px;
+    background-color:red;
+
+}
+.v5{
+    width:100px;
+    border:2px solid black;
+    border-radius: 23px;
+    background-color:orchid;
+
+
+}
+.s5{
+    width:125px;
+    border:2px solid black;
+    border-radius: 23px;
+    background-color:yellow;
+
+
+}
+.t5{
+    width:80px;
+    border:2px solid black;
+    border-radius: 23px;
+    background-color:darkgreen;
+    
+}
+.sidebarGo{
+    position: absolute;
+    transform: translate(-495px, 0px);
+}
+.hamburger{
+   position: absolute;
+    left: 1px;
+    cursor: pointer;
+    }
+
+ .cross{
+    margin: 0px 124px;
+}
+@media(max-width:1090px){
+
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

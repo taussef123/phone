@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vicky's Portfolio</title>
+    <link rel="stylesheet" href="vicky.css">
+</head>
+<body>
+    <div class="container">
+    <div class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/services.html">Services</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+        <div class="main">
+            <div class="infoContainer">
+                <div class="devInfo">
+                    <div class="hello">Hi, I am </div>
+                    <div class="name">Vicky</div>
+                    <!-- <div class="about">I am a WeDeveloper and I live in Kolkata.I love to sing in  my leisure hours</div> -->
+                    <span id="element"></span>
+                    <div class="about">I am a WeDeveloper and I live in Kolkata.I love to sing in  my leisure hours</div>
+                    <div class="buttons">
+                        <button>Download CV</button>
+                        <button>Contact Me</button>
+                    </div>
+                </div>
+                <div class="devPic">
+                    <image class="image-top" src="man.png" alt="">
+                  
+                </div>
+            </div>
+
+        </div>
+   
+</div>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['WebDeveloper', 'ReactJs Developer','Nodejs Developer','Sql Developer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
